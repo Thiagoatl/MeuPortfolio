@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/thiago_ico.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>&ensp;Portfólio</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img class="icone" src="assets/images/thiago_ico.png" alt="Logo">
+            <span class="titulo">&ensp;Portfólio</span>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="contato">
+        <section class="formulario">
+            <h3>Contato</h2>
+                <form>
+                    <div class="campos-form">
+                        <label for="nome">Nome:</label>
+                        <input onkeyup="validarNome()" id="nome" name="nome" type="text"
+                            placeholder="Insira o seu nome completo">
+                        <div id="txtNome"></div>
+                    </div>
+
+                    <div class="campos-form">
+                        <label for="email">E-mail:</label>
+                        <input onkeyup="validarEmail2()" id="email" name="email" type="text"
+                            placeholder="Insira o seu e-mail">
+                        <div id="txtEmail"></div>
+                    </div>
+
+                    <div class="campos-form">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea onkeyup="validarMensagem()" id="mensagem" name="mensagem" rows="8"
+                            placeholder="Deixe sua mensagem..."></textarea>
+                        <div id="txtMensagem"></div>
+                    </div>
+
+                    <button type="button" onclick="enviarForm()">
+                        Enviar
+                    </button>
+
+
+                </form>
+        </section>
+
+        <section>
+            <h3>Consultar CEP</h3>
+            <div class="endereco">
+                <div class="campos-form">
+                    <label for="cep">CEP:</label>
+                    <input onkeyup="validarCep()" id="cep" name="cep" type="text" placeholder="Digite o número do CEP">
+                    <div id="txtCep"></div>
+                </div>
+                <button type="button" onclick="consultarCep()">
+                    Consultar
+                </button>
+                <hr>
+                <div class="campos-form">
+                    <label for="dados">Endereço:</label>
+                    <textarea id="dados" name="dados" rows="7" placeholder="Busca CEP..."></textarea>
+                    <div id="txtCep"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes_sociais">
+            <a href="https://www.linkedin.com/in/thiagoatl/" target="_blank">
+                <img class="icons" src="assets/images/linkedin.png" alt="Linkedin">
+            </a>
+            <a href="http://github.com/thiagoatl" target="_blank">
+                <img class="icons" src="assets/images/github.png" alt="Github">
+            </a>
+            <a href="http://instagram.com/thiagoatl_" target="_blank">
+                <img class="icons" src="assets/images/instagram.png" alt="Instagram">
+            </a>
+        </div>
+        <p class="by">Desenvolvido por: Thiago Almeida Trevisani - 2023 &copy;</p>
+    </footer>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>

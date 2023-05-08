@@ -1,0 +1,270 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&family=Roboto:wght@100;300;500;700&display=swap');
+
+:root {
+    --background-page: #0f0024f5;
+    --background-nav: #5b06ca;
+    --white: #ffffff;
+    --gray: #00e1ff;
+    --yellow: #ffffff;
+    --black: #330541;
+    --letrablack: #ffffff;
+    --letrapreto: #000000;
+    --blue: #310758;
+    --letra: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-page);
+}
+
+p {
+    font-family: 'lato', Roboto;
+    margin-bottom: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: 'Lato', cursive;
+    color: var(--letrablack);
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 0 0 5px var(--letra);
+}
+
+hr {
+    margin: 1rem;
+}
+
+header {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-nav);
+    box-shadow: 2px 2px 5px var(--gray);
+}
+
+nav {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-nav);
+    font-size: 1.5rem;
+    padding: 2.25rem 1.5rem;
+    box-shadow: 2px 2px 5px var(--gray);
+}
+
+nav a {
+  font-family: 'Lato', cursive;
+  color: var(--white);
+  letter-spacing: 3px;
+  font-weight: 800;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+    justify-content: left;
+    position: relative;
+    align-items: center;
+}
+
+.icone {
+    width: 5rem;
+    display: flex;
+    padding-left: 1rem;
+}
+
+.titulo{
+  font-family: 'Lato', cursive;
+  color: var(--white);
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+    font-weight: 800;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    font-size: 24px;
+    color: var(--white);
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+    background-color: var(--yellow);
+    padding: 20px;
+    border-radius: 16px;
+    align-items: center;
+    gap: 20px;
+}
+
+.foto {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px var(--gray);
+}
+
+#meu_video {
+    margin-bottom: 2rem;
+}
+
+.video {
+    width: 60vw;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+footer {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+}
+
+.redes_sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.by {
+    display: flex;
+    padding-top: 0.25rem;
+    color: var(--yellow);
+}
+
+.icons {
+    width: 45px;
+    padding: 0 0.5rem;
+}
+
+/*Página de Contato*/
+
+.contato {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 40px
+    
+}
+
+.endereco {
+    font-family: 'lato', Roboto;
+    color: var(--letra);
+    font-size: 1rem;
+}
+
+.formulario {
+    width: 50%;
+}
+
+label {
+    font-family: 'lato', Roboto;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+input,
+textarea,
+button {
+    font-family: 'lato', Roboto;
+    width: 100%;
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: var(--letrapreto);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--letra);
+}
+
+input,
+textarea {
+    border: 1px solid var(--letra);
+}
+
+button {
+    font-family: 'lato', Roboto;
+    background-color: var(--background-nav);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid var(--letra)
+}
+
+button:hover {
+    background-color: var(--letra);
+    color: var(--yellow);
+}
+
+.campos-form {
+    margin-bottom: 1rem;
+    font-family: 'lato', Roboto;
+    color: var(--letra);
+    font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+    #sobre {
+        flex-direction: column-reverse;
+    }
+
+}
