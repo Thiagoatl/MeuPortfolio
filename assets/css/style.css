@@ -7,7 +7,6 @@
     --gray: #00e1ff;
     --yellow: #ffffff;
     --black: #145a88;
-    --letrablack: #ffffff;
     --letrapreto: #000000;
     --blue: #310758;
     --letra: #ffffff;
@@ -228,7 +227,7 @@ button {
     padding: 0.5rem 1rem;
     border-radius: 8px;
     font-size: 1rem;
-    color: var(--letrapreto);
+    color: var(--letra);
 }
 
 input::placeholder,
