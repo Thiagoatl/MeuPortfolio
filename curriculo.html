@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/images/thiago_ico.png">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Portifólio</title>
+    <title>Curriculo</title>
 </head>
 
 <body>
@@ -15,14 +15,12 @@
     <nav>
         <div class="logo">
             <img class="icone" src="assets/images/thiago_ico.png" alt="Logo">
-            <span class="titulo">&ensp;Portfólio</span>
+            <span class="titulo">&ensp;Meu Curriculo</span>
         </div>
 
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#perfil">Sobre</a></li>
-            <li><a href="#video">Vídeo</a></li>
-            <li><a href="curriculo.html">Currículo</a></li>
+            <li><a href="curriculo.html">Curriculo</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
@@ -36,14 +34,29 @@
             </div>
             <img class="foto" src="assets/images/thiago.jpg" alt="Olá, eu sou o Thiago">
         </section>
-        <h1 id="video">Vídeo:</h1>
-        <section id="meu_video">
-            <h2>Meu Pitch:</h2>
-            <iframe class="video" width="480" height="640" src="https://drive.google.com/file/d/1JKWh13roXmJK1aLBocSgdwfRJOphnIcy/preview"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+        <section id="meu_curriculo">
+            <div class="container">
+              <h2>Meu Currículo:</h2>
+              <embed src="assets\pdf\curriculo.pdf" type="application/pdf" width="500" height="1430" class="pdf">
+            </div>
         </section>
+
+        <style>
+            #meu_curriculo {
+              text-align: center;
+            }
+            
+            .container {
+              display: inline-block;
+              text-align: left;
+            }
+            
+            .pdf {
+              margin: 0 auto;
+              display: block;
+            }
+          </style>
+
     </main>
 
     <footer>
