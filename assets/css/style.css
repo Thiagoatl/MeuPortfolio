@@ -261,9 +261,61 @@ button:hover {
     font-size: 1rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
+
+    nav{
+        width: 140vw;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.3rem;
+    }
+
+    .logo {
+        width: 100vw;
+    }
+
+    .titulo{
+        text-align: center;
+    }
+
+    main{   
+        width: 100vw;
+    }
+
     #sobre {
         flex-direction: column-reverse;
     }
 
+    .foto {
+        margin-top: 1rem;
+    }
+
+    #meu_video {
+        width: 100vw;
+    }
+
+    .video {
+        width: 100vw;
+    }
+
+    footer{
+        width: 100vw;
+    }
+
+    .by {
+        font-size: 1rem;
+    }
+
+    #contato {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    #formulario_mensagem,
+    #formulario_buscacep {
+        width: 100vw;
+        margin: 0 auto;
+    }
 }
