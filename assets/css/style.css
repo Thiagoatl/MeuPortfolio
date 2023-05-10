@@ -260,20 +260,52 @@ button:hover {
     color: var(--letra);
     font-size: 1rem;
 }
+.navbar-custom {
+    background-color: #145a88;
+}
 
-@media (max-width: 1080px) {
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand img {
+    height: 30px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#meu_curriculo {
+    text-align: center;
+  }
+  
+  .container {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .pdf {
+    margin: 0 auto;
+    display: block;
+  }
+  
+@media (max-width: 700px) {
 
     nav{
-        width: 140vw;
+        width: 150vw;
         flex-direction: column;
         row-gap: 1rem;
         justify-content: center;
         align-items: center;
-        font-size: 0.3rem;
+        font-size: 3rem;
     }
 
     .logo {
-        width: 100vw;
+        width: 90vw;  
     }
 
     .titulo{
@@ -281,7 +313,7 @@ button:hover {
     }
 
     main{   
-        width: 100vw;
+        width: 90vw;
     }
 
     #sobre {
@@ -293,15 +325,15 @@ button:hover {
     }
 
     #meu_video {
-        width: 100vw;
+        width: 90vw;
     }
 
     .video {
-        width: 100vw;
+        width: 90vw;
     }
 
     footer{
-        width: 100vw;
+        width: 90vw;
     }
 
     .by {
@@ -309,13 +341,32 @@ button:hover {
     }
 
     #contato {
-        width: 100vw;
+        width: 90vw;
         flex-direction: column;
     }
 
     #formulario_mensagem,
     #formulario_buscacep {
-        width: 100vw;
+        width: 90vw;
         margin: 0 auto;
     }
+    .meu_curriculo{
+        text-align: center;
+        width: 90vw;
+
+    }
+    .conteiner{
+        text-align: center;
+        width: 90vw;
+    }
+    .pdf {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        width: 90vw;
+      }
+      .navbar-custom {
+        width: 350px;
+        float: center;
+}
 }
