@@ -142,6 +142,15 @@ main {
     align-items: center;
     gap: 20px;
 }
+#sobre1 {
+    display: flex;
+    align-items: center;
+    background-color: var(--yellow);
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+    gap: 10px;
+}
 
 .foto {
     width: 200px;
@@ -352,19 +361,14 @@ button:hover {
         margin: 0 auto;
     }
     .meu_curriculo{
-        text-align: center;
-        width: 90vw;
+        text-align: left;
+        width: 50vw;
 
     }
-    .conteiner{
-        text-align: center;
-        width: 90vw;
-    }
-    .pdf {
-        margin: 0 auto;
-        display: block;
-        text-align: center;
-        width: 90vw;
+    #pdf {
+        display: legacy;
+        text-align: left;
+        width: 100vw;
       }
       .navbar-custom {
         width: 350px;
