@@ -90,20 +90,6 @@ nav {
     box-shadow: 2px 2px 5px var(--gray);
 }
 
-nav a {
-  font-family: 'Lato', cursive;
-  color: var(--white);
-  letter-spacing: 3px;
-  font-weight: 800;
-}
-
-.logo {
-    display: flex;
-    width: 20%;
-    justify-content: left;
-    position: relative;
-    align-items: center;
-}
 
 .icone {
     width: 5rem;
@@ -139,7 +125,6 @@ main {
     background-color: var(--yellow);
     padding: 20px;
     border-radius: 16px;
-    align-items: center;
     gap: 20px;
 }
 #sobre1 {
