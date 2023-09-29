@@ -5,7 +5,7 @@
     --background-nav: #f83b01;
     --white: #ffffff;
     --gray: #271104f5;
-    --yellow: #ffffff;
+    --yellow: #e6b958;
     --black: #010202;
     --letrapreto: #000000;
     --blue: #271104f5;
@@ -123,6 +123,7 @@ main {
     display: flex;
     align-items: center;
     background-color: var(--yellow);
+    text-shadow: 0.1px 0.1px 1px rgb(0, 0, 0);
     padding: 40px;
     border-radius: 40px;
     gap: 20px;
@@ -381,7 +382,7 @@ button:hover {
     }
 
     footer{
-        width: 90vw;
+        width: 100%;
     }
 
     .by {
@@ -409,7 +410,7 @@ button:hover {
         width: 100vw;
       }
       .navbar-custom {
-        width: 350px;
+        width: 100%;
         float: center;
 }
 }
