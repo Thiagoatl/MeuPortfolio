@@ -1,14 +1,14 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&family=Roboto:wght@100;300;500;700&display=swap');
 
 :root {
-    --background-page: #0f0024f5;
-    --background-nav: #00375c;
+    --background-page: #271104f5;
+    --background-nav: #f83b01;
     --white: #ffffff;
-    --gray: #000000;
+    --gray: #271104f5;
     --yellow: #ffffff;
-    --black: #00375c;
+    --black: #010202;
     --letrapreto: #000000;
-    --blue: #310758;
+    --blue: #271104f5;
     --letra: #ffffff;
 }
 
@@ -19,7 +19,8 @@
 }
 
 body {
-    background-color: var(--background-page);
+   
+    background-image: url(https://i.imgur.com/6kyWCBm.png);
 }
 
 p {
@@ -75,7 +76,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #00375c;
+    background-color: #271104f5;
     box-shadow: 2px 2px 5px var(--gray);
 }
 
@@ -111,7 +112,7 @@ main {
 .linha-vertical {
     width: 4px; /* Ajuste a largura da linha conforme necessário */
     height: 100%; /* Isso faz a linha estender-se verticalmente por toda a altura da janela */
-    background-color: #145a88;
+    background-color: #271104f5;
     position: absolute;
     top: 12;
     left: 58%; /* Posiciona a linha no centro horizontal da janela */
@@ -175,7 +176,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--black);
+    background-color: #252525;
 }
 
 .redes_sociais {
@@ -193,6 +194,11 @@ footer {
 
 .icons {
     width: 45px;
+    padding: 0 0.5rem;
+}
+
+.icons1 {
+    width: 120px;
     padding: 0 0.5rem;
 }
 
@@ -265,7 +271,8 @@ button:hover {
     font-size: 1rem;
 }
 .navbar-custom {
-    background-color: #00375c;
+    background-color: #252525;
+
 }
 
 .navbar-custom .navbar-brand,
